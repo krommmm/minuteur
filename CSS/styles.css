@@ -1,0 +1,91 @@
+/* html {
+	background: #2980b9;
+	background: -webkit-linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+	background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+	min-width: 400px;
+	text-align: center;
+} */
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.bouton {
+	padding: 10px;
+	background: linear-gradient(to right, #efc11e 0%, #f6e27e 100%);
+	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+	background-color: #efc11e;
+	box-shadow: inset;
+	border-radius:3px;
+	cursor: pointer;
+}
+.bouton_stop{
+	padding: 10px;
+	background: linear-gradient(to right, #efc11e 0%, #f6e27e 100%);
+	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+	background-color: #efc11e;
+	box-shadow: inset;
+	border-radius:3px;
+	cursor: pointer;
+}
+
+.bouton_Submit{
+	padding: 10px;
+	background: linear-gradient(to right, #efc11e 0%, #f6e27e 100%);
+	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+	background-color: #efc11e;
+	box-shadow: inset;
+	border-radius:3px;
+	cursor: pointer;
+	border: 1px solid #efc11e;
+}
+
+.bouton:active{
+	opacity:.5;
+}
+.bouton_stop:active{
+	opacity:.5;
+}
+.bouton_Submit:active{
+	opacity:.5;
+}
+
+label{
+	font-size:30px;
+}
+.timer{
+	margin:15px;
+	font-size:50px;
+	margin-left: 35px;
+}
+
+.info{
+	display:flex;
+	flex-direction:column;
+}
+
+.minutes{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.boutons_container{
+	display:flex;
+}
+
+.bouton, .bouton_stop{
+	margin-left: 10px;
+}

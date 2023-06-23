@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Minuteur</title>
+<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="./CSS/styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/65211b898e.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<form onsubmit="handleSecondes(event)">
+			<div class="minutes">
+				<div class="info">
+					<label>Saisir minutes</label>
+					<input type="text" class="secondes" placeholder="minutes" />
+				</div>
+				<div class="timer_container">
+					<p class="timer">00.00:00</p>
+				</div>
+			</div>
+			<div class="boutons_container">
+				<input
+					type="submit"
+					class="bouton_Submit"
+					value="Enregistrer"
+				/>
+				<div class="bouton">Commencer</div>
+				<div class="bouton_stop">Pause</div>
+			</div>
+		</form>
+
+		<script src="./JS/index.js"></script>
+	</body>
+</html>
